@@ -10,7 +10,7 @@ const FixedNavbar = () => {
           <li><a href="#">About</a></li>
           <li><a href="#">Portopolio</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">career</a></li>
+          <li><a href="#">Career</a></li>
           <li> <div className='contact-us'>Contact Us</div></li>
         </ul>
       </Container>

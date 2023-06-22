@@ -134,6 +134,9 @@ p.line:before {
 .img-framework{
   width: 50%;
 }
+.img-framework-2{
+  width: 50%;
+}
 
 #progres {
   background-color: #272727;
@@ -238,7 +241,12 @@ p.line:before {
   border-top: 2px solid #C4C4C4 !important;
   border-bottom: 2px solid #C4C4C4;
 }
-
+footer{
+  margin-top: 18rem;
+ }
+ .navbar-dekstop{
+  font-weight: bold;
+ }
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

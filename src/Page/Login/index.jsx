@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Container, Form, Button, Card } from 'react-bootstrap';
 import { handleLogin } from '../../../actions/handleActions';
 
@@ -13,9 +13,8 @@ const Login = () => {
       <Card className='card-login dashboard-admin'>
         <Card.Body>
           <Card.Title>Login</Card.Title>
-          <hr/>
+          <hr />
           <Form className="login-form">
-            {/* <h2 className="text-center mb-4">Login</h2> */}
             <Form.Group controlId="email">
               <Form.Label>Email address</Form.Label>
               <Form.Control

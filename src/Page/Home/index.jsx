@@ -31,7 +31,6 @@ const Home = () => {
         <Consultation/>
         <Footer/>
         </Container>
-
         </>
     )
 }

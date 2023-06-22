@@ -10,7 +10,6 @@ const Carrousel = () => {
         >
             <Carousel
                 additionalTransfrom={0}
-                // customDot={<CustomDot />}
                 arrows={false}
                 autoPlaySpeed={3000}
                 centerMode={false}

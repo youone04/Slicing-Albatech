@@ -44,13 +44,13 @@ const ListFramework = () => {
                 </Col>
             </Row>
             <Row className="mt-5 align-items-start">
-                <Col lg={2}>
-                    <img className="img-framework" src="images/tools/Rectangle 1926.svg" alt="lis postgre" />
+                <Col sm={2} md={2} lg={2}>
+                    <img className="img-framework-2" src="images/tools/Rectangle 1926.svg" alt="lis postgre" />
                 </Col>
-                <Col lg={2}>
-                    <img className="img-framework" src="images/tools/Rectangle 1930.svg" alt="lis sql server" />
+                <Col sm={2} md={2} lg={2}>
+                    <img className="img-framework-2" src="images/tools/Rectangle 1930.svg" alt="lis sql server" />
                 </Col>
-                <Col lg={8}>
+                <Col sm={8} md={8} lg={8}>
                 </Col>
             </Row>
         </div>

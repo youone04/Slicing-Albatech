@@ -41,7 +41,7 @@ const Dashboard = () => {
           <div className="row content">
             <Sidebar />
             <br />
-            <DashboardComp />
+            <DashboardComp token={data.token} />
           </div>
         </div>
         <Footer />

@@ -1,4 +1,4 @@
-const DashboardComp = () => {
+const DashboardComp = ({token}) => {
   return (
     <div className="col-sm-9">
       <div className="card mb-3 dashboard-admin">
@@ -47,6 +47,7 @@ const DashboardComp = () => {
           <div className="card mb-3 dashboard-admin">
             <div className="card-body">
               <p className="card-text"><b>Notifikasi Admin</b></p>
+              <p className="card-text">Token Anda <b>{token}</b></p>
               <p className="card-text">Update Role Admin!</p>
               <p className="card-text">Admin Approve!</p>
             </div>
