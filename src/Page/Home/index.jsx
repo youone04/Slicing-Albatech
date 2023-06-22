@@ -9,11 +9,13 @@ import Portopolio from "../../../Components/Home/Portopolio";
 import Testimonials from "../../../Components/Home/Testimonials";
 import Carrousel from "../../../Components/Home/Carousel";
 import Consultation from "../../../Components/Home/Consultation";
+import BurgerMenu from "../../../Components/Navbar/BurgerMenu";
 
 const Home = () => {
     return(
         <>
         <FixedNavbar/>
+        <BurgerMenu/>
         <Container>
         <HomeAfterNavbar/>
         <CompletPackage/>

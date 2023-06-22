@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="mb-3 mt-5 card-footer">
             <div className="mt-5">
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={6} className="text-alba">
                         <div>
                             <img className="mb-4" src="/images/logo/alba-logo.png" alt="alba logo" />
                             <p className="des-alba">Albatech acts a corporate partner to help digitize their business to accelarate trends in remote work</p>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </Row>
             </div>
         </div>
-        <div className="copy-right d-flex">
+        <div className="copy-right d-lg-flex">
         <p>&copy; PT. Alba Digital Teknologi 2021 | All Righta Reserved</p>
         <p>Privacy policy | Terms of ervice</p>
         </div>
