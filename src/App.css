@@ -1,14 +1,7 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
+ 
   font-family: 'SPF Pro Display', sans-serif;
 }
-
-/* .navbar-mod{
-  top: 50px;
-} */
-
 
 /* Navbar */
 .navbar {
@@ -106,9 +99,7 @@ p.line:before{
 p.line:before {
   margin-right: 10px
 }
-.product-desaign {
-  margin-top: 200px;
-}
+
 .title-card-home{
   color: #FFCE07 !important;
 }
@@ -125,6 +116,7 @@ p.line:before {
 }
 
 .product-desaign {
+  margin-top: 200px;
   fill: #272727;
   stroke: #000000;
   line-height: 0;
@@ -133,7 +125,7 @@ p.line:before {
 .modif-card {
   --bs-card-spacer-y: 0 !important;
   --bs-card-spacer-x: 0 !important;
-  height: 900px;
+  height: 200px !important;
 }
 
 .text-color-orange {

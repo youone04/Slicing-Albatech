@@ -1,0 +1,134 @@
+.burger-menu {
+    display: none !important;
+}
+
+.navbar-dekstop {
+    display: block !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .navbar-dekstop li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .buildslace {
+        font-size: 45px;
+    }
+
+    .your-development {
+        font-size: 39px;
+    }
+
+    p.line {
+        display: flex;
+        flex-direction: row;
+        margin-right: 269px;
+        font-size: 14px;
+    }
+
+    #progres {
+        height: 195px !important;
+    }
+    .product-desaign {
+        margin-top: 157px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-dekstop li {
+        display: inline-block;
+        margin-right: 18px;
+    }
+
+    .buildslace {
+        font-size: 35px;
+    }
+
+    .your-development {
+        font-size: 30px;
+    }
+
+    p.line {
+        margin-right: 130px;
+    }
+
+    .modif-card {
+        height: 272px !important;
+    }
+    .product-desaign {
+        margin-top: 125px;
+    }
+}
+
+@media screen and (max-width: 838px) {
+    #progres {
+        height: 220px !important;
+    }
+    .product-desaign {
+        margin-top: 84px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .burger-menu {
+        display: block !important;
+    }
+
+    .navbar-dekstop {
+        display: none !important;
+    }
+
+    .image-home {
+        width: 100%;
+        position: relative;
+        margin-top: 44px;
+        right: 0;
+    }
+
+    .text-mod {
+        margin-top: 90px;
+    }
+
+    .buildslace {
+        font-size: 53px;
+    }
+
+    .your-development {
+        font-size: 46px;
+    }
+
+    .product-desaign {
+        margin-top: 70px;
+    }
+
+    .modif-card {
+        height: auto !important;
+    }
+
+    #progres {
+        height: 220px;
+    }
+
+    #progres h4 {
+        width: 68%;
+    }
+
+    .portopolio {
+        width: 80%;
+    }
+
+    .modif-card-portopolio {
+        height: 494px !important;
+    }
+
+    .testimonial {
+        width: 54%;
+    }
+
+    .text-alba {
+        display: block;
+        text-align: -webkit-center;
+    }
+}
