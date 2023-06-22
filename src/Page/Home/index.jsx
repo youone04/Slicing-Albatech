@@ -15,6 +15,7 @@ const Home = () => {
     return(
         <>
         <FixedNavbar/>
+        <BurgerMenu/>
         <Container>
         <HomeAfterNavbar/>
         <CompletPackage/>

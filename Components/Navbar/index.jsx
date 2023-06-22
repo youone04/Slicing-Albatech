@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 const FixedNavbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar navbar-dekstop">
       <Container>
         <ul>
           <li><a href="#"> <img src="/images/logo/alba-logo.png" alt="alba logo" /></a></li>

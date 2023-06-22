@@ -11,13 +11,13 @@ const Portopolio = () => {
         </div>
       </div>
       <Row>
-        <Col>
+        <Col md={4} lg={4}>
           <CardPortopolio text1="Mobile apps" title="ILIOS app (B2B E-commerce)" des="Has a unique selling point where not all companies offer applications for sales, data collection and management"  img="images/content/Rectangle 1914.png"/>
         </Col>
-        <Col>
+        <Col  md={4} lg={4}>
           <CardPortopolio text1="Website Development" title="Home and Living" des="Albatech helps in creating a website catalog to show brand indetity and information in accordance with vision and mission of Home and Living" img="https://img.freepik.com/free-photo/paper-texture_1194-6012.jpg" />
         </Col>
-        <Col>
+        <Col  md={4} lg={4}>
           <CardPortopolio text1="Website Development" title="HIPPO" des="Albatech help to create e-commerce and company profile for Hippo's Website with realtime transaction and integration with Payment Gateway to accept multi Payment" img={"https://img.freepik.com/free-photo/paper-texture_1194-6012.jpg"} />
         </Col>
       </Row>
