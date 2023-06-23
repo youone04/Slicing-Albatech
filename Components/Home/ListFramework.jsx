@@ -2,7 +2,8 @@ import { Col, Row } from "react-bootstrap";
 
 const ListFramework = () => {
     return (
-        <div className="mt-5 center-div">
+        <center>
+            <div className="mt-5">
             <Row>
                 <Col>
                     <img className="img-framework" src="images/tools/Rectangle 1902.svg" alt="lis aws" />
@@ -54,6 +55,7 @@ const ListFramework = () => {
                 </Col>
             </Row>
         </div>
+        </center>
     )
 }
 export default ListFramework;

@@ -6,9 +6,9 @@ const Portopolio = () => {
     <div className='mt-5'>
       <div className='mb-3 title-product'>
         <p className='complete-package'>Portopolio</p>
-        <div className='center-div'>
-          <h3 className='portopolio'><b>The software that we build takes our clients to the next level</b></h3>
-        </div>
+        <center>
+        <h3 className='portopolio'><b>The software that we build takes our clients to the next level</b></h3>
+        </center>
       </div>
       <Row>
         <Col md={4} lg={4}>
@@ -21,9 +21,9 @@ const Portopolio = () => {
           <CardPortopolio text1="Website Development" title="HIPPO" des="Albatech help to create e-commerce and company profile for Hippo's Website with realtime transaction and integration with Payment Gateway to accept multi Payment" img={"https://img.freepik.com/free-photo/paper-texture_1194-6012.jpg"} />
         </Col>
       </Row>
-      <div className='center-div'>
-        <div className='learn-more'>Learn more</div>
-      </div>
+       <center>
+       <div className='learn-more'>Learn more</div>
+       </center>
     </div>
   );
 };

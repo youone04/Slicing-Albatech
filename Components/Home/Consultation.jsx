@@ -8,9 +8,10 @@ const Consultation = () => {
         <h3 style={{lineHeight:0}}>
          Build with Albatech.
         </h3>
-        <div className='center-div'>
+        <center>
         <div className='button-consul mt-5'>Consultation Now</div>
-        </div>
+        </center>
+      
       </Card.Body>
     </Card>
   );

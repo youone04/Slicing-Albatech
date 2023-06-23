@@ -8,9 +8,9 @@ const Testimonials = () => {
     }}>
       <div className='mb-3 title-product'>
         <p className='testimonial-text'>Testimonial</p>
-        <div className='center-div'>
-          <h3 className='testimonial'><b>What clients love in working with Albatech Team</b></h3>
-        </div>
+        <center>
+        <h3 className='testimonial'><b>What clients love in working with Albatech Team</b></h3>
+        </center>
       </div>
       <Container className='mt-5'>
         <Row>

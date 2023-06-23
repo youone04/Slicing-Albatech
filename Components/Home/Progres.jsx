@@ -3,9 +3,9 @@ import { Row, Col, Container } from "react-bootstrap"
 const Progres = () => {
     return (
         <div id="progres">
-            <div className="center-div ">
+            <center>
                 <h4>Our Progres Comes with a Collaboration Between Creativity, Ideas, and Technology</h4>
-            </div>
+            </center>
             <Container className="text-align-center text-progres center-div mt-4">
                 <Row>
                     <Col>

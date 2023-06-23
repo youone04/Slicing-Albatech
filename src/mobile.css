@@ -6,6 +6,33 @@
     display: block !important;
 }
 
+@media screen and (max-width: 2652px) {
+    .product-desaign {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width: 2304px) {
+   
+
+    .product-desaign {
+        margin-top: 48%;
+    }
+}
+@media screen and (max-width: 1960px) {
+    .product-desaign {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 1552px) {
+  
+    .product-desaign {
+        margin-top: 25%;
+    }
+
+}
+
 @media screen and (max-width: 1199px) {
     .navbar-dekstop li {
         display: inline-block;
