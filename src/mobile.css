@@ -9,7 +9,7 @@
 @media screen and (max-width: 1199px) {
     .navbar-dekstop li {
         display: inline-block;
-        margin-right: 50px;
+        margin-right: 49px;
     }
 
     .buildslace {
@@ -41,7 +41,7 @@
 @media screen and (max-width: 991px) {
     .navbar-dekstop li {
         display: inline-block;
-        margin-right: 18px;
+        margin-right: 15px;
     }
 
     .buildslace {
