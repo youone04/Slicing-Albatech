@@ -164,6 +164,16 @@ p.line:before {
 .portopolio {
   width: 45%;
 }
+/* backgroundRepeat: 'no-repeat, no-repeat',
+backgroundSize: '50px, 150px',
+backgroundPositionX: 25,
+backgroundPositionY: '410px, 10px' */
+.bg-image-testimonial{
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px, 150px;
+  background-position-x: 25px;
+  background-position-y: 410px, 10px;
+}
 
 .testimonial{
   width: 30%;
@@ -244,7 +254,7 @@ p.line:before {
 footer{
   margin-top: 18rem;
  }
- .navbar-dekstop{
+.navbar-dekstop{
   font-weight: bold;
  }
 @keyframes logo-spin {
